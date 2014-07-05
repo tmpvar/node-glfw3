@@ -1,0 +1,27 @@
+{
+  "name": "glfw3",
+  "version": "1.0.0",
+  "author": "Elijah Insua <tmpvar@gmail.com>",
+  "description": "glfw3 sourcecode and a static build target",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "gypfile": true,
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tmpvar/node-glfw3.git"
+  },
+  "keywords": [
+    "glfw3",
+    "glfw",
+    "addon",
+    "static",
+    "c-code"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmpvar/node-glfw3/issues"
+  },
+  "homepage": "https://github.com/tmpvar/node-glfw3"
+}
